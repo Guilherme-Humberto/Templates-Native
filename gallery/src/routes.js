@@ -5,8 +5,11 @@ import Videos from './pages/Videos/index'
 
 const Routes = createAppContainer(
     createSwitchNavigator({
+        Images,
         Videos,
-        Images
+        
+     
+        
     })
 )
 
